@@ -11,9 +11,18 @@ When the price difference between the last two prices increases significantly (t
 time filter: 
 Every bar has to have MINIMUM_BAR_TIME seconds as its minimum duration, this ensures strategies have enough time to process orders.
 
+Installation:
+
+Python version: 3.7
+ 
+To install requirements and related Python packages: 
+
+`pip install -r requirements.txt`
+
 Run:
+
 `python -m range_bar_maker`
 
-Check config.py to change adjustable parameters.
+Check range_bar_maker/config.py to change adjustable parameters.
 
 If you find this repo useful or you would like to collaborate on range bar strategies send me a message to strmci@protonmail.com.
